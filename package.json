@@ -4,7 +4,7 @@
   "description": "simple tasks",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js --i=input.js --f=Ipsum --r=Lorem --o=output.js",
+    "start": "node main.js --i=input.txt --f=Ipsum --r=Lorem --o=output.txt",
     "test": "mocha --compilers js:babel-register"
   },
   "repository": {
